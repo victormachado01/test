@@ -1,0 +1,52 @@
+ion-content #imageContainer {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10;
+}
+
+#title {
+  top: 0;
+  margin-top: 8%;
+  font-size: 11px;
+  color: #000;
+  position: absolute;
+}
+
+#bodyPage{
+  background-color: #fff;
+}
+
+.sb {
+  width: 100%;
+}
+
+ion-searchbar {
+  --box-shadow: none;
+  --border-radius: 8px;
+  --background: #f4f4f4;
+}
+
+.content {
+  width: 100%;
+  height: 50%;
+  padding: 20;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 110px;
+  height: 110px;
+  background-color: #42db;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}

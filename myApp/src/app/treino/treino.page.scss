@@ -1,0 +1,39 @@
+.imageContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+    background-color: #f3f3f3;
+    margin: 15;
+}
+
+#textImg { 
+    width: 60%;
+    position: relative;
+    align-self: flex-end;
+}
+
+.chronometer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 20%;
+    background-color: chartreuse;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 20%;
+}
+
+.statistics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 5%;
+}
